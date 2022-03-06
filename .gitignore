@@ -1,0 +1,11 @@
+HELP.md
+### IntelliJ IDEA ###
+.idea/
+
+/node_modules
+.idea
+.phpunit.result.cache
+npm-debug.log
+
+### VS Code ###
+.vscode/
