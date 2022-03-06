@@ -1,10 +1,11 @@
 <?php
-
+require_once 'App\Core\Controller.php';
 use Core\Controller;
 
 class AboutController extends Controller
 {
     public function index(){
-        echo 'About us';
+        $msg="Hello World";
+       $this->view('about',['msg'=>$msg]);
     }
 }
